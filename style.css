@@ -12,3 +12,22 @@ black: #1F1F1F;
 body {
     font-family: "Noto Sans", sans-serif;
 }
+
+header {
+    background-color: #daeeff;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 3rem;
+}
