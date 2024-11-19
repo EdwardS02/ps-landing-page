@@ -11,15 +11,18 @@ black: #1F1F1F;
 
 body {
     font-family: "Noto Sans", sans-serif;
+    color: #1F1F1F;
 }
 
 header {
     background-color: #daeeff;
+    padding: 2rem 0;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .logo {
@@ -31,3 +34,41 @@ header {
 .logo img {
     height: 3rem;
 }
+
+.search {
+    padding: 1rem 2rem;
+    width: 20rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.search::placeholder {
+    color: #1F1F1F80;
+}
+
+.blue-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #00559a;
+    padding: .8rem 2rem;
+    border-radius: 10px;
+}
+
+nav {
+    margin-top: 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #1F1F1F;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 5rem;
+}
+
