@@ -3,62 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PolyStation</title>
+    <title>PlayStation</title>
     <!-- connect css file -->
     <link rel="stylesheet" href="style.css">
     <!-- set font and favicon for the page -->
-    <link rel="icon" href="./img/logo.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="./img/logo.svg" type="image/svg" sizes="32x32">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+<!-- New redesign of the playstation landing page project, design by Fuad Al Hasan https://dribbble.com/fuad333 -->
+
 <body>
     <header>
-        <img src="./img/pony.png" alt="pony logo, a parody of the original sony logo">
+        <div class="hero">
+            <div class="logo">
+                <img src="./img/logo.svg" alt="playstation logo">
+                <h1>Playstation</h1>
+            </div>
+            <form action="https://www.playstation.com/en-us/search/" method="get">
+                <input type="search" placeholder="Search everything...">
+            </form>
+            <a href="#" class="blue-btn">Sign in</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Games</a></li>
+                <li><a href="#">Hardware</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </nav>
     </header>
-    <!-- had to place the nav outside the header to make the position sticky work -->
-    <nav>
-        <ul id="features">
-            <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40" width="40" viewBox="0 0 576 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#0072ce" d="M570.9 372.3c-11.3 14.2-38.8 24.3-38.8 24.3L327 470.2v-54.3l150.9-53.8c17.1-6.1 19.8-14.8 5.8-19.4-13.9-4.6-39.1-3.3-56.2 2.9L327 381.1v-56.4c23.2-7.8 47.1-13.6 75.7-16.8 40.9-4.5 90.9 .6 130.2 15.5 44.2 14 49.2 34.7 38 48.9zm-224.4-92.5v-139c0-16.3-3-31.3-18.3-35.6-11.7-3.8-19 7.1-19 23.4v347.9l-93.8-29.8V32c39.9 7.4 98 24.9 129.2 35.4C424.1 94.7 451 128.7 451 205.2c0 74.5-46 102.8-104.5 74.6zM43.2 410.2c-45.4-12.8-53-39.5-32.3-54.8 19.1-14.2 51.7-24.9 51.7-24.9l134.5-47.8v54.5l-96.8 34.6c-17.1 6.1-19.7 14.8-5.8 19.4 13.9 4.6 39.1 3.3 56.2-2.9l46.4-16.9v48.8c-51.6 9.3-101.4 7.3-153.9-10z"/></svg></a></li>
-            <li><a href="https://www.playstation.com/en-us/games/" class="nav-links txt">Games</a></li>
-            <li><a href="https://www.playstation.com/en-us/ps5/" class="nav-links txt">PS5</a></li>
-            <li><a href="https://www.playstation.com/en-us/ps4/" class="nav-links txt">PS4</a></li>
-            <li><a href="https://www.playstation.com/en-us/ps-plus/" class="nav-links txt">Services</a></li>
-            <li><a href="https://www.playstation.com/en-us/accessories/" class="nav-links txt">Accessories</a></li>
-            <li><a href="https://www.playstation.com/en-us/editorial/this-month-on-playstation/" class="nav-links txt">News</a></li>
-            <li><a href="https://store.playstation.com/en-us/pages/latest" class="nav-links txt">Store</a></li>
-            <li><a href="https://www.playstation.com/en-us/support/" class="nav-links txt">Support</a></li>
-        </ul>
-        <ul id="sign-in">
-            <li><a href="#" class="blue-btn">Sign In</a></li>
-            <li><form action="https://www.playstation.com/en-us/search/" method="post">
-                <input type="search" placeholder="Search" class="search-bar txt">
-            </form></li>
-        </ul>
-    </nav>
-    <div>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit assumenda blanditiis nesciunt, unde libero praesentium tempora asperiores magnam corrupti beatae quis, minima voluptatum officiis quae reprehenderit laborum! Harum, quo saepe!
-        Nisi enim ea quia iusto deserunt! Suscipit, asperiores aperiam magni explicabo temporibus, a repellat nulla nam aspernatur dolorem natus maiores laudantium obcaecati possimus voluptatem accusamus iure accusantium iusto libero expedita!
-        Nulla itaque reiciendis pariatur unde ducimus ea quisquam repudiandae maiores voluptatum, nihil provident, quidem, nemo laborum. Accusamus nisi dicta consectetur. Eos, explicabo? Facilis provident nulla quos officia, dicta minus eum.
-        Nulla culpa delectus magni officiis est fugiat porro cupiditate libero, placeat id ad aperiam error ut voluptatibus qui minima ex quis quidem odit tenetur dolorum ullam vitae provident architecto. Numquam.
-        Nulla non itaque tenetur illum esse consequatur sunt dolores! Ad fuga magni earum error tempore. Consequatur, nostrum ullam. Ex fugit ut quos sint consectetur perferendis obcaecati vero, repellendus autem aliquid?
-        Similique amet, iure dolor ratione obcaecati, aperiam inventore totam odit vel provident blanditiis omnis a eveniet beatae error id soluta velit quia nobis maxime explicabo. Tenetur alias pariatur magni officiis!
-        Iste laboriosam velit amet tempora culpa eaque doloribus numquam ipsam, placeat accusantium error corporis nihil ab quia explicabo eum ad tempore odio ea! Facere minus voluptates possimus. Ipsam, quibusdam minus.
-        Repellat saepe, tenetur totam, quo at illum ad esse perferendis doloribus dolorum iure minima possimus nostrum velit laudantium. Pariatur tempore aliquid architecto? Amet hic laborum eos voluptatum consectetur nihil placeat?
-        Perspiciatis tenetur veritatis deleniti dicta, suscipit consequuntur provident odio quo labore sapiente, natus tempore accusamus quam doloribus recusandae ullam. Praesentium earum pariatur ipsum inventore sed similique autem nobis quia alias?
-        Amet, nulla aspernatur? Quis labore ducimus, facilis accusantium repellat vero expedita quod minima! Voluptatem, eaque. Quidem deleniti provident ab, repudiandae sed temporibus est delectus dolorem impedit. Molestias inventore iusto quaerat.
-        Autem, veniam impedit. Error quis natus cupiditate ea, illo ad totam. Vitae nihil, facilis voluptatibus libero assumenda tempore voluptate iure distinctio neque error impedit eum ipsa architecto, repudiandae iusto maxime.
-        Veritatis laboriosam distinctio praesentium officia deserunt reiciendis perspiciatis nulla odio ducimus eius ipsam error iusto dolor incidunt doloribus vel, suscipit voluptatem. Vero recusandae at eligendi est magni mollitia doloribus ducimus!
-        Quod, iure? Id cumque animi accusamus illo at non veritatis reiciendis, deserunt amet eum facere illum iure debitis, ea delectus quae omnis incidunt ab, quia veniam eos. Doloribus, fuga saepe?
-        Provident ullam impedit, dolores voluptatibus ipsum quaerat optio quas velit vel quidem tempore quod reiciendis, consequatur reprehenderit veritatis fugiat ducimus dignissimos recusandae ad, nam facilis mollitia explicabo. Dolor, ducimus vel.
-        Facere fugiat laboriosam molestias non iste officiis excepturi nemo laudantium ipsum asperiores unde eum magnam, quos dolores, hic, consequatur quibusdam. Placeat ducimus quasi odio ad tempora amet voluptatem quis minus?
-        Animi delectus corrupti atque exercitationem, fuga unde suscipit autem possimus minus officia neque voluptate repellat voluptatibus ab dicta rerum eligendi quibusdam at doloremque eos, fugit minima consequatur. Perferendis, eveniet vitae.
-        Illum consequatur animi in sapiente, architecto obcaecati nostrum? Atque sed ullam sapiente quam aliquam reprehenderit porro quibusdam veritatis sint asperiores vero, sunt omnis maxime fugiat voluptas, dolores, adipisci fugit voluptate.
-        Ipsa eius harum deleniti nisi quas iusto accusamus totam labore, optio laboriosam quisquam provident eos recusandae nostrum soluta quis? Error ipsam deserunt ipsa fuga dolor aspernatur minima, quisquam culpa porro.
-        Aliquam cum voluptatum corrupti veritatis, repellat laborum non quam animi adipisci quia, ducimus quis distinctio soluta aliquid itaque ab molestiae eos sed in beatae! Vero suscipit illo possimus et dignissimos.
-        Ducimus quasi delectus culpa nostrum facere optio explicabo dolores necessitatibus in eum fugit distinctio dolorum adipisci commodi omnis laboriosam iusto, hic ab assumenda consequatur? Nesciunt, vel. Voluptatem iure deserunt sequi.
-        </h1>
-    </div>
     
 </body>
 </html>
