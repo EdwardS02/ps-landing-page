@@ -72,3 +72,41 @@ nav ul {
     gap: 5rem;
 }
 
+.cover {
+    background-image: url(./img/cover-img-lg-blue.jpg);
+    height: auto;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 3rem;
+}
+
+.cover-text {
+    color: #efefef;
+    margin-bottom: 2rem;
+    width: 35vw;
+}
+
+.heading {
+    font-size: 2rem;
+    
+}
+
+.thin-font {
+    font-weight: 300;
+}
+
+.blue-txt {
+    color: #00559a;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+    padding: 4rem;
+    background-color: #daeeff;
+}
+
+
