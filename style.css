@@ -109,6 +109,16 @@ main {
     background-color: #daeeff;
 }
 
+.game-price-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 5rem;
+    align-items: center;
+    justify-items: center;
+}
+
 .game-price {
     background-color: #00559a;
     height: auto;
@@ -162,6 +172,11 @@ main {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: 0.3s ease-in-out;
+}
+
+.card-image:hover img {
+    transform: scale(1.1);
 }
 
 .game-desc {
