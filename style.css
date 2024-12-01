@@ -109,17 +109,17 @@ main {
     background-color: #daeeff;
 }
 
-.game-price-container {
+.grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
-    margin-top: 5rem;
+    margin: 5rem 0;
     align-items: center;
     justify-items: center;
 }
 
-.game-price {
+.game-card {
     background-color: #00559a;
     height: auto;
     width: 300px;
@@ -128,6 +128,9 @@ main {
     gap: 1rem; */
     border-radius: 10px;
     overflow: hidden;
+    box-shadow: 0 4px 6px #000000a0;
+    border: 4px solid #00559a;
+    border-width: 0 4px 4px 0;
 }
 
 /* .img-placeholder1 {
