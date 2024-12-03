@@ -176,12 +176,12 @@ main {
     height: 100%;
     object-fit: cover;
     transition: 0.3s ease-in-out;
-    opacity: 0.9;
+    filter: saturate(1);
 }
 
 .card-image:hover img {
     transform: scale(1.1);
-    opacity: 1;
+    filter: saturate(1.2);
 }
 
 .game-desc {
@@ -247,6 +247,15 @@ main {
     text-align: center;
     padding: 2rem;
   }
+
+footer {
+    color: white;
+    background-color: #00559a;
+}
+
+footer .logo img {
+    filter: invert(1);
+}
 
 
 
