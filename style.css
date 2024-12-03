@@ -176,10 +176,12 @@ main {
     height: 100%;
     object-fit: cover;
     transition: 0.3s ease-in-out;
+    opacity: 0.9;
 }
 
 .card-image:hover img {
     transform: scale(1.1);
+    opacity: 1;
 }
 
 .game-desc {
@@ -214,31 +216,36 @@ main {
     margin-top: 1rem;
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
+.news-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 5rem 0;
+    height: 100%;
+    gap: 2rem;
+    justify-items: center;
+    align-items: stretch;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.game-news {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    border-radius: 10px;
   }
 
-  .image-container img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-
-  .text-overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    padding: 60px;
+.txt-news {
     text-align: center;
-    font-size: 1.2rem;
-    color: white;
-    background: linear-gradient(
-      to top, 
-      #00559a, 
-      #00559a00
-    );
+    padding: 2rem;
   }
 
 
