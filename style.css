@@ -19,7 +19,7 @@ header {
     padding: 2rem 0;
 }
 
-.hero {
+.flex {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -255,6 +255,32 @@ footer {
 
 footer .logo img {
     filter: invert(1);
+}
+
+.footer-container {
+    display: flex;
+    gap: 5%;
+    justify-content: space-around;
+    padding: 5rem 0;
+}
+
+footer .contact {
+    width: 35%;
+    margin-bottom: 2rem;
+}
+
+footer .lists {
+    display: flex;
+    width: 40%;
+    gap: 3rem;
+}
+
+.lists .items {
+    list-style: none;
+}
+
+.lists .items li {
+    margin-bottom: 1rem;
 }
 
 
