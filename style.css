@@ -279,8 +279,8 @@ footer .lists {
     list-style: none;
 }
 
-.lists .items li {
-    margin-bottom: 1rem;
+.footer-container .thin-font {
+    margin: 1rem 0;
 }
 
 
